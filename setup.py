@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '2021.0.3'
+VERSION = '2021.12.16'
 DESCRIPTION = 'module designed to make your data preprocessing experience easier'
 with open("README.md") as description:
     LONG_DESCRIPTION = description.read()
@@ -15,6 +15,6 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    install_requires=["scikit-learn","pandas","matplotlib","PyQt5","scikit-learn",],
+    install_requires=["scikit-learn","pandas","matplotlib","PyQt5","scikit-learn","irdatacleaning"],
     keywords=['Python',"Machine Learning", "Artificial Intelligence","Data Science","Data Cleaning"],
 )

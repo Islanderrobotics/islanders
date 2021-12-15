@@ -1,3 +1,16 @@
+Metadata-Version: 2.1
+Name: islanders
+Version: 2021.12.16
+Summary: module designed to make your data preprocessing experience easier
+Home-page: UNKNOWN
+Author: Islander Robotics (William McKeon)
+Author-email: <IslanderRobotics@gmail.com>
+License: UNKNOWN
+Keywords: Python,Machine Learning,Artificial Intelligence,Data Science,Data Cleaning
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # Islanders
 this is a python packaged dessigned to make artificial Intelligence engineers, machine learning engineers, and Data 
 Sciencist lives easier to do there job. within this package you will have the ability to use irdatacleanings  methods as well as
@@ -8,3 +21,5 @@ import islanders as ir
 gifts = ir.dataset("amazon electronic")
 titanic = ir.dataset("titanic")
 ```
+
+
